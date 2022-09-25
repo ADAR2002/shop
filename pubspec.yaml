@@ -1,0 +1,38 @@
+name: shop
+description: A new Flutter application.
+publish_to:
+version: 1.0.0+1
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  carousel_slider: ^4.1.1
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  fluttertoast: ^8.0.9
+  shared_preferences: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/page1.jpg
+    - assets/image/page2.jpg
+    - assets/image/page3.jpg
+    - assets/image/shop.gif
+    - assets/image/no.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+          style: italic
